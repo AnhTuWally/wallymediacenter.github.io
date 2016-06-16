@@ -1,0 +1,101 @@
+/*Banner Title and top navigation*/
+
+/*Banner*/
+.bannerImg{
+	display:inline
+}
+
+.bannerImgMobile{
+	display:none;
+}	
+/*Title*/
+h1.titleTop{
+	margin-top:10px!important;
+	padding:10px;
+	font-size:30pt!important;
+	color:#FF2400;
+	font-family: sans-serif;
+}
+
+.titleDes{
+	padding:10px;
+	font-size:20px
+}
+
+
+/*Dropdown menu*/
+.dropNav{
+	position:relative;
+	display:inline-block;
+	transition: 0.5s;
+	z-index:10;
+}
+
+.dropLinks{
+	position:absolute;
+	background-color:black;
+	visibility:hidden;
+	min-width:100%;
+	opacity:0;
+	top:75%;
+	left:0;
+	transform:translateY(10%);
+	-webkit-transform:translateY(10%);
+	-ms-transform:translateY(10%);
+	transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
+}
+
+.dropLinks a{
+	text-decoration:none!important;
+	color:white!important;
+	font-size:25px;
+	padding:12px 16px;
+	display:block;
+}
+
+.dropLinks a:hover{
+	background-color:#FF2400;
+}
+
+.dropNav:hover .dropLinks{
+	visibility:visible;
+	opacity:1;
+	transform:translateX(0%);
+	-webkit-transform:translateY(0%);
+	-ms-transform:translateY(0%);
+	transition-delay:0s;
+}
+
+.navArrow{
+	position:absolute;
+	top:5px;
+	left:100%;
+	height:60%;
+	opacity:1;
+	transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
+}
+
+.dropNav:hover .navArrow{
+	opacity:0;
+	-webkit-transform:rotate(90deg);
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+}
+
+@media screen and (max-width:991px){
+	h1.titleTop{font-size:25pt!important;}
+}
+
+@media screen and (max-width:800px){
+		.bannerImg{
+			display:none;
+		}
+		.bannerImgMobile{
+			display:inline;
+		}		
+}
+
+
+@media screen and (max-width:766px){
+	h1.titleTop{font-size:5.5vw!important;}
+}

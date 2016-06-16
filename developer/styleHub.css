@@ -1,0 +1,156 @@
+h2.hub{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:30px;
+}
+
+/*Podcast/Youtube Button*/
+.pyButton{
+	background-color:#FF2400;
+	color:white!important;
+	padding:15px 32px;
+	text-decoration:none!important;
+	display:inline-block;
+	font-size:20px;
+	border:2px solid #FF2400;
+	border-radius:4px;
+	margin:10px;
+}
+
+.pyButton:hover{
+	background-color:#FFFFFF;
+	color:#FF2400!important;
+	border:2px solid #FF2400;
+	-webkit-transition-duration:0.4s; /*Safari*/
+	transition-duration:0.4s;
+}
+
+/*podcast*/
+.podcastButton{
+	background-color:#FFFFFF;
+	color:#FF2400!important;
+	padding:15px 32px;
+	text-decoration:none!important;
+	display:inline-block;
+	font-size:20px;
+	border:2px solid #FF2400;
+	border-radius:4px;
+}
+
+.podcastButton:hover{
+	opacity:0.9;
+	box-shadow: 0px 5px 10px 0px #000000;
+}
+	
+.podcastButton:active{
+	transform: translate(2px, 3px);
+	-webkit-transform:translate(2px, 3px); /*safari*/
+	-ms-transform:translateY(2px, 3px); /*IE 9*/
+	box-shadow: 0px 2px 4px 0px #000000;
+}
+
+/*Yotube*/
+.youtubeButton{
+	background-color:#FF2400;
+	color:#FFFFFF!important;
+	padding:15px 32px;
+	text-decoration:none!important;
+	display:inline-block;
+	font-size:20px;
+	border:2px solid #FF2400;
+	border-radius:4px;
+	margin:10px;
+}
+
+.youtubeButton:hover{
+		opacity:0.9;
+		box-shadow: 0px 5px 10px 0px #000000;
+	}
+
+.youtubeButton:active{
+	transform: translate(2px, 3px);
+	-webkit-transform:translate(2px, 3px); /*safari*/
+	-ms-transform:translateY(2px, 3px); /*IE 9*/
+	box-shadow: 0px 2px 4px 0px #000000;
+}
+
+.youtubePlaylist{
+	position:relative;
+	width:960px;	
+}
+
+/*Youtube embed*/
+.media{
+	height: 850px;
+	position:relative;
+	overflow:hidden;
+	margin-top:-30px;
+}
+
+.mediaPodcast{
+	height: 700px;
+	position:relative;
+	overflow-y:hidden;
+}
+
+.media video {
+  	transition: 1s opacity;
+  	position: absolute;
+ 	min-height: 100%;
+  	min-width: 100%;
+  	top: 0px;
+  	left: 0px;
+  	z-index: -100;
+}
+
+.youtubeContainer{
+		position:relative;
+		width:80%;
+		height:0;
+		padding-bottom:450px;
+		transition-duration:0.5s;
+		box-shadow: 0px 4px 8px 4px #000000;
+		}
+
+.youtubeVideo{
+	position:absolute;
+	z-index: 100;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+/*hour and location*/
+.hourloc{
+	background-color:#FF2400;
+	padding:30px;
+	}
+
+
+/*Screen condition*/
+@media screen and (max-width:1300px){
+		.youtubePlaylist{
+			position:relative;
+			width:70%;
+			height:245px;
+			overflow:hidden;
+			transition-duration:0.5s;	
+		}
+		ls#level1{display:none;}
+}
+
+@media screen and (max-width:850px){
+		.youtubeContainer{
+			position:relative;
+			width:70%;
+			height:0;
+			padding-bottom:56.25%;
+			transition-duration:0.5s;
+		}
+}
+
+
+
+
+	
