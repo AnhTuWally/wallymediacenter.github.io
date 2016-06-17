@@ -174,7 +174,7 @@ h2.hub{
 			position:relative;
 			width:70%;
 			transition-duration:0.5s;	
-		}
+		}	
 		ls#level1{display:none;}
 }
 
@@ -186,6 +186,12 @@ h2.hub{
 			padding-bottom:56.25%;
 			transition-duration:0.5s;
 		}
+		.podcastLink{
+			max-width:220px;
+		}
+		.youtubeLink{
+			max-width:220px;
+		}	
 }
 
 
