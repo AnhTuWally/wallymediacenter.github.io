@@ -71,10 +71,10 @@
 
 /*Content of the graphic navigation*/
 .tabContent{
-	background-color:#FF2400;
+	background-color:#AE0F0E;
 	float:left;
 	width:100%;
-	padding:10px 0px;
+	padding:50px 10px 50px 10px;
 }
 
 .tabContent h2{
