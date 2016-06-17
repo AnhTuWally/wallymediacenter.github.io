@@ -148,13 +148,13 @@ h2.hub{
 }
 
 .youtubeContainer{
-		position:relative;
-		width:80%;
-		height:0;
-		padding-bottom:450px;
-		transition-duration:0.5s;
-		box-shadow: 0px 4px 8px 4px #000000;
-		}
+	position:relative;
+	width:80%;
+	height:0;
+	padding-bottom:450px;
+	transition-duration:0.5s;
+	box-shadow: 0px 4px 8px 4px #000000;
+}
 
 .youtubeVideo{
 	position:absolute;
