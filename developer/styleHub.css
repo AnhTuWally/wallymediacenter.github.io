@@ -87,6 +87,7 @@ h2.hub{
 	box-shadow: 1px 2px 5px 1px black;
 }
 
+
 .youtubeButton{
 	background-color:#e62827;
 	color:#FFFFFF!important;
@@ -116,6 +117,10 @@ h2.hub{
 .youtubePlaylist{
 	position:relative;
 	width:960px;	
+}
+
+.playListTitle{
+	margin-left:50px;
 }
 
 /*Youtube embed*/
@@ -171,7 +176,6 @@ h2.hub{
 /*Screen condition*/
 @media screen and (max-width:1300px){
 		.youtubePlaylist{
-			position:relative;
 			width:70%;
 			transition-duration:0.5s;	
 		}	
@@ -184,14 +188,15 @@ h2.hub{
 			width:70%;
 			height:0;
 			padding-bottom:56.25%;
-			transition-duration:0.5s;
+			transition-duration:0.3s;
 		}
 		.podcastLink{
 			max-width:220px;
 		}
 		.youtubeLink{
 			max-width:220px;
-		}	
+		}
+		.playListTitle{margin-left:0px;}	
 }
 
 
