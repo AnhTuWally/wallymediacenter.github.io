@@ -93,7 +93,7 @@
 }
 
 @media screen and (max-width:800px){
-	.tab{font-size:30pt!important;}
+	.tab{font-size:7vw!important;}
 }
 @media screen and (min-width:800px){
 	.col{width:50%;}
