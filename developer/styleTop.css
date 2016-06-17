@@ -13,7 +13,7 @@ h1.titleTop{
 	margin-top:10px!important;
 	padding:10px;
 	font-size:30pt!important;
-	color:#FF2400;
+	color:#e62827;
 	font-family: sans-serif;
 }
 
@@ -54,7 +54,7 @@ h1.titleTop{
 }
 
 .dropLinks a:hover{
-	background-color:#FF2400;
+	background-color:#e62827	;
 }
 
 .dropNav:hover .dropLinks{

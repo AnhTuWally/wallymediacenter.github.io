@@ -5,14 +5,14 @@ h2.hub{
 
 /*Podcast/Youtube Button*/
 .pyButton{
-	background-color:#FF2400;
+	background-color:#e62827;
 	color:white!important;
 	padding:15px 32px;
 	text-decoration:none!important;
 	display:inline-block;
 	font-size:20px;
-	border:2px solid #FF2400;
-	border-radius:4px;
+	border:2px solid #e62827;
+	border-radius:15px;
 	margin:10px;
 }
 
@@ -21,7 +21,7 @@ h2.hub{
 	color:#FF2400!important;
 	border:2px solid #FF2400;
 	-webkit-transition-duration:0.4s; /*Safari*/
-	transition-duration:0.4s;
+	transition-duration:0.3s;
 }
 
 /*podcast*/
@@ -32,13 +32,14 @@ h2.hub{
 	text-decoration:none!important;
 	display:inline-block;
 	font-size:20px;
-	border:2px solid #FF2400;
-	border-radius:4px;
+	border:2px solid #AE0F0E;
+	border-radius:10px;
+	box-shadow: 0px 2px 5px 0px #000000;
 }
 
 .podcastButton:hover{
 	opacity:0.9;
-	box-shadow: 0px 5px 10px 0px #000000;
+	box-shadow: 0px 5px 10px 1px #000000;
 }
 	
 .podcastButton:active{
@@ -50,20 +51,21 @@ h2.hub{
 
 /*Yotube*/
 .youtubeButton{
-	background-color:#FF2400;
+	background-color:#e62827;
 	color:#FFFFFF!important;
 	padding:15px 32px;
 	text-decoration:none!important;
 	display:inline-block;
 	font-size:20px;
-	border:2px solid #FF2400;
-	border-radius:4px;
+	border:2px solid #d82625;
+	border-radius:10px;
 	margin:10px;
+	box-shadow: 0px 2px 5px 0px #000000;
 }
 
 .youtubeButton:hover{
 		opacity:0.9;
-		box-shadow: 0px 5px 10px 0px #000000;
+		box-shadow: 0px 5px 10px 1px #000000;
 	}
 
 .youtubeButton:active{
@@ -123,7 +125,7 @@ h2.hub{
 
 /*hour and location*/
 .hourloc{
-	background-color:#FF2400;
+	background-color:#AE0F0E;
 	padding:30px;
 	}
 
