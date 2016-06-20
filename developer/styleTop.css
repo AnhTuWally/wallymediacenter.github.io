@@ -11,11 +11,9 @@
 /*Title*/
 h1.titleTop{
 	margin-top:10px!important;
-	padding:10px;
 	font-size:35pt!important;
 	color:#e62827;
 	font-family: sans-serif;
-	line-height: 50px!important;
 }
 
 .titleDes{
@@ -106,6 +104,10 @@ h1.titleTop{
 	h1.titleTop{
 		font-size:10vw!important;
 		line-height:100%!important;	
+	}
+	
+	.dropNav table{
+		margin-left:12%;
 	}
 	
 	.dropNav:hover .dropLinks{
