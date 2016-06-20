@@ -12,7 +12,7 @@
 h1.titleTop{
 	margin-top:10px!important;
 	padding:10px;
-	font-size:30pt!important;
+	font-size:35pt!important;
 	color:#e62827;
 	font-family: sans-serif;
 	line-height: 50px!important;
@@ -49,9 +49,6 @@ h1.titleTop{
 	-ms-transform:rotate(90deg);
 }
 
-.dropNav table{
-	border: 1px solid black;
-}
 .dropNav td{
 	text-align:center; 
     vertical-align:middle;
@@ -61,7 +58,8 @@ h1.titleTop{
 	padding-top:15px;
 	padding-bottom:10px;
 	opacity:1;
-	transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
+	transition: all 0.3s ease 0s, visibility 0s linear 0.3s;
+	height:50%;
 }
 
 .dropLinks{
@@ -87,7 +85,7 @@ h1.titleTop{
 }
 
 .dropLinks a:hover{
-	background-color:#e62827	;
+	background-color:#e62827;
 }
 
 
@@ -96,16 +94,26 @@ h1.titleTop{
 	h1.titleTop{font-size:25pt!important;}
 }
 
-@media screen and (max-width:800px){
-		.bannerImg{
-			display:none;
-		}
-		.bannerImgMobile{
-			display:inline;
-		}		
-}
 
-
-@media screen and (max-width:766px){
-	h1.titleTop{font-size:10vw!important;}
-}
+@media screen and (max-width:767px){
+	.bannerImg{
+		display:none;
+	}
+	.bannerImgMobile{
+		display:inline;
+	}	
+	
+	h1.titleTop{
+		font-size:10vw!important;
+		line-height:100%!important;	
+	}
+	
+	.dropNav:hover .dropLinks{
+		transform:translateX(15%);
+		-webkit-transform:translateY(15%);
+		-ms-transform:translateY(15%);
+	}
+	
+	.navArrow2{
+		height:70%;
+	}
