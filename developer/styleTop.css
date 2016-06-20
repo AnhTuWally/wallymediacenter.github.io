@@ -63,7 +63,7 @@ h1.titleTop{
 
 .dropLinks{
 	position:absolute;
-	background-color:black;
+	background-color:rgba(0,0,0,0.85);
 	visibility:hidden;
 	min-width:100%;
 	opacity:0;
