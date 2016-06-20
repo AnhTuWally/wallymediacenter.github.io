@@ -7,7 +7,7 @@ h2.hub{
 .podcastLink{
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	text-decoration:none!important;	
-	color:#AE0F0E!important;
+	color:#d51821!important;
 	font-size:30px; 
 	display:block;
 	background-color:white;
@@ -35,12 +35,12 @@ h2.hub{
 
 .podcastButton{
 	background-color:#FFFFFF;
-	color:#FF2400!important;
+	color:#d51821!important;
 	padding:15px 32px 10px 32px;
 	text-decoration:none!important;
 	display:inline-block;
 	font-size:20px;
-	border:2px solid #AE0F0E;
+	border:2px solid #d51821;
 	border-radius:10px;
 	box-shadow: 0px 2px 5px 0px #000000;
 	transition-duration:0.01s;
@@ -65,7 +65,7 @@ h2.hub{
 	color:white!important;
 	font-size:30px; 
 	display:block;
-	background-color:#e62827;
+	background-color:#d51821;
 	max-width:350px;
 	border-radius:10px;
 	box-shadow:2px 4px 13px 1px black;
@@ -89,13 +89,13 @@ h2.hub{
 
 
 .youtubeButton{
-	background-color:#e62827;
+	background-color:#d51821;
 	color:#FFFFFF!important;
 	padding:15px 32px;
 	text-decoration:none!important;
 	display:inline-block;
 	font-size:20px;
-	border:2px solid #e62827;
+	border:2px solid #d51821;
 	border-radius:10px;
 	margin:10px;
 	box-shadow: 0px 2px 5px 0px #000000;
