@@ -105,7 +105,7 @@ h1.titleTop{
 	h1.titleTop{
 		font-size:8.9vw!important;
 		line-height:100%!important;	
-		min-width:200px;
+		width:100%;
 	}
 	
 	.dropNav table{
