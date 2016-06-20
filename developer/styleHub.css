@@ -165,6 +165,43 @@ h2.hub{
 	height:100%;
 }
 
+/*live Stream*/
+
+.liveStream{
+	margin:0px;
+	background-image: url("../img/background/livestream_background.png");
+	background-repeat: repeat;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.liveLink{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	text-decoration:none!important;
+	color:black!important;
+	font-size:30px; 
+	display:block;
+	background-color:white;
+	max-width:200px;
+	border-radius:10px;
+	box-shadow:2px 4px 8px 0px black;
+	padding:3px;
+	border:2px solid #d51821;
+	transition-duration:0.01s;
+}
+
+.liveLink:hover{
+	opacity:0.9;
+	box-shadow: 2px 5px 10px 1px #000000;
+}
+	
+.liveLink:active{
+	transform: translate(1px, 2px);
+	-webkit-transform:translate(1px, 2px); /*safari*/
+	-ms-transform:translateY(1px, 2px); /*IE 9*/
+	box-shadow: 0px 2px 4px 0px #000000;
+}
+
 
 /*hour and location*/
 .hourloc{
