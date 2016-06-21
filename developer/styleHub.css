@@ -1,10 +1,29 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
 h2.hub{
-	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Lato';
 	font-size:30px;
 }
 
+.titleDes{
+    font-family: 'Lato';
+	padding:0px 30px 0px 30px;
+	font-size:20px;
+    color:#707070;
+}
+
 .ftlinks{
-    padding-left:25px;
+    margin-top:-15px;
+    margin-bottom:10px;
+}
+
+.ftlinks img:hover{
+    opacity:0.8;
 }
 
 .ftlinks a{
@@ -13,7 +32,7 @@ h2.hub{
 
 /*podcast*/
 .podcastLink{
-	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Lato';
 	text-decoration:none!important;	
 	color:#d51821!important;
 	font-size:30px; 
@@ -21,7 +40,7 @@ h2.hub{
 	background-color:white;
 	max-width:350px;
 	border-radius:10px;
-	box-shadow:2px 4px 13px 1px black;
+	box-shadow: 0px 2px 5px 0px #000000;
 	padding:3px;
 	margin-top:50px;
 	margin-bottom:50px;
@@ -29,8 +48,8 @@ h2.hub{
 }
 
 .podcastLink:hover{
-	opacity:0.9;
-	box-shadow: 2px 4px 15px 4px black;
+    box-shadow: 0px 5px 10px 1px #000000;
+    opacity: 0.9;
 }
 
 .podcastLink:active{
@@ -68,7 +87,7 @@ h2.hub{
 
 /*Yotube*/
 .youtubeLink{
-	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Lato';
 	text-decoration:none!important;	
 	color:white!important;
 	font-size:30px; 
@@ -76,7 +95,7 @@ h2.hub{
 	background-color:#d51821;
 	max-width:350px;
 	border-radius:10px;
-	box-shadow:2px 4px 13px 1px black;
+	box-shadow: 0px 2px 5px 0px #000000;
 	padding:3px;
 	margin-top:50px;
 	margin-bottom:50px;
@@ -85,7 +104,7 @@ h2.hub{
 
 .youtubeLink:hover{
 	opacity:0.9;
-	box-shadow: 2px 4px 15px 4px black;
+	box-shadow: 0px 5px 10px 1px #000000;
 }
 
 .youtubeLink:active{
@@ -184,9 +203,9 @@ h2.hub{
 }
 
 .liveLink{
-	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Lato';
 	text-decoration:none!important;
-	color:black!important;
+	color:#565656!important;
 	font-size:30px; 
 	display:block;
 	background-color:white;
