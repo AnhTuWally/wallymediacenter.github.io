@@ -3,6 +3,14 @@ h2.hub{
 	font-size:30px;
 }
 
+.ftlinks{
+    padding-left:25px;
+}
+
+.ftlinks a{
+    text-decoration:none!important;
+}
+
 /*podcast*/
 .podcastLink{
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
