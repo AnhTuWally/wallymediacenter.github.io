@@ -29,7 +29,7 @@
 /*Special container for the big picture*/
 .containerSer2{
 	position:relative;
-	width:100%;
+	height:100%;
 	padding-bottom: 130%;
 	overflow:hidden;
 }
@@ -81,7 +81,7 @@
 	background-color:#AE0F0E;
 	float:left;
 	width:100%;
-	padding:50px 10px 50px 10px;
+	padding:50px 20px 50px 20px;
 }
 
 .tabContent h2{
@@ -95,6 +95,21 @@
 	display:none;
 	font-size:20px;
 }
+
+.content h2{
+	color:black; 
+	border: 3px solid white; 
+	background-color:white; 
+	max-width:300px;
+}
+
+.content a{
+	color:white!important; 
+	border-bottom:3px solid #d51821;
+	text-decoration:none!important;
+}
+
+.content a:hover{border-bottom-color:white;}
 
 @media screen and (max-width:1500px){
 	.tab{font-size:2.7vw!important;}
