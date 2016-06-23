@@ -33,30 +33,12 @@ h1.titleTop{
 	transition-delay:0s;
 }
 
-.dropNav:focus .dropLinks{
-	visibility:visible;
-	opacity:1;
-	transform:translateY(0%);
-	-webkit-transform:translateY(0%);
-	-ms-transform:translateY(0%);
-	transition-delay:0s;
-}
-
-
 .dropNav:hover .navArrow2{
 	opacity:0;
 	-webkit-transform:rotate(90deg);
 	transform:rotate(90deg);
 	-ms-transform:rotate(90deg);
 }
-
-.dropNav:focus .navArrow2{
-	opacity:0;
-	-webkit-transform:rotate(90deg);
-	transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-}
-
 
 .dropNav td{
 	text-align:center;
