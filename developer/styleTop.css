@@ -7,7 +7,7 @@
 
 .bannerImgMobile{
 	display:none;
-}	
+}
 /*Title*/
 h1.titleTop{
 	margin-top:10px!important;
@@ -21,7 +21,7 @@ h1.titleTop{
 	position:relative;
 	display:inline-block;
 	transition: 0.5s;
-	z-index:10;
+	z-index:100;
 }
 
 .dropNav:hover .dropLinks{
@@ -42,7 +42,7 @@ h1.titleTop{
 }
 
 .dropNav td{
-	text-align:center; 
+	text-align:center;
     vertical-align:middle;
 }
 
@@ -92,23 +92,23 @@ h1.titleTop{
 	}
 	.bannerImgMobile{
 		display:inline;
-	}	
-	
+	}
+
 	h1.titleTop{
 		font-size:8.9vw!important;
-		line-height:100%!important;	
+		line-height:100%!important;
 	}
-	
+
 	.dropNav table{
 		margin-left:13%;
 	}
-	
+
 	.dropNav:hover .dropLinks{
 		transform:translateY(15%);
 		-webkit-transform:translateY(15%);
 		-ms-transform:translateY(15%);
 	}
-	
+
 	.navArrow2{
 		height:70px;
 	}
