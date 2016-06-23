@@ -908,7 +908,7 @@
 		//Image effects
 		function appear(des, bgImg){
 			//NOT execute if on mobile
-			if ( screen.width > 961){
+			if ( screen.width > 1020){
 				document.getElementById(des).style.display="block";
 				document.getElementById(bgImg).style.transform="scale(2,2)";
 				document.getElementById(bgImg).style.webkitTransform="scale(2,2)";
@@ -917,7 +917,7 @@
 			}
 		}
 		function disappear(des, bgImg){
-			if ( screen.width > 961){
+			if ( screen.width > 1020){
 				document.getElementById(des).style.display="none";
 				document.getElementById(bgImg).style.transform="scale(1,1)";
 				document.getElementById(bgImg).style.webkitTransform="scale(1,1)";
