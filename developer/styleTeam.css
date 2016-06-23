@@ -102,10 +102,10 @@
     margin:0 auto;
     padding:30px;
     overflow:hidden;
-    text-align:right; 
+    text-align:right;
     transition:0.3s;
     z-index:2!important;
-    
+
 }
 
 .containerDirector h2{
@@ -151,7 +151,7 @@
     padding-left:10%;
 }
 
-.dirContact{ 
+.dirContact{
 	font-size:20pt;
 }
 
@@ -194,13 +194,15 @@
 /*contact Us*/
 .contactUs{
 	text-align:left;
+  font-size:18px;
 	background-color:rgba(0,0,0,0.5);;
 	color:white;
 	width:100%;
-    margin:0 auto;
-    padding:30px;
-    transition:0.3s;
+  margin:0 auto;
+  padding:30px;
 }
+
+.contactUs table{width:100%;}
 
 .bgImg{
 	position:absolute;
@@ -212,7 +214,7 @@
 }
 
 .containerContent{
-	
+
 }
 
 @media screen and (max-width:1200px){
@@ -227,8 +229,8 @@
 			display:inline;
 		}
 		.directorDes{width:90%;}
-		
-		.dirContact{ 
+
+		.dirContact{
 			font-size:5.5vw;
 		}
 		.directorDes {

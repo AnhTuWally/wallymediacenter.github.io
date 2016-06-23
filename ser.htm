@@ -756,7 +756,7 @@
 			</div>
 
 			<!--Resource-->
-			<div class = "containerSer" onmouseover="appear('resourceDes', 'resourceImg')" onmouseout="disappear('resourceDes', 'resourceImg')">
+			<div class = "containerSer" onmouseover="appear('resourceDes', 'resourceImg')" onmouseout="disappear('resourceDes', 'resourceImg')" style="background-color:#FFFFFF;">
 				<a class="tab" id="resourceDes" onclick="openTab(event, 'resource')" href="#tContent">
 					<u>Resource</u> <br>iMac, Adobe Creative Suite, Atomic Learning
 				</a>
@@ -859,6 +859,25 @@
 
 			<!--Return to top-->
 			<a href="#topNavi" style="background-color:black; color:white; padding:10px 5px; float:right; text-decoration:none; font-size:20px; margin-right:-10px">Return to Top</a>
+
+
+		</div>
+		<div class="contactUs">
+			<h2>Contact Us</h2>
+			<table>
+				<tr>
+					<td>
+						Adam Phipps
+						<br>phippsa@wabash.edu
+						<br>765-361-6251
+					</td>
+					<td style="align:right;">
+						Media Center Operator
+						<br>mediaoperators@wabash.edu
+						<br>765-361-6451
+					</td>
+				</tr>
+			</table>
 		</div>
 	</div>
 
@@ -879,27 +898,37 @@
 			tablinks = document.getElementsByClassName("tab");
 
 			//Reset by default the variables
-			for(i=0; i < x.length; i++){
-				x[i].style.display="none";
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			if(screen.width > 1000){
+				for(i=0; i < x.length; i++){
+					x[i].style.display="none";
+					tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(tabName).style.display="block";
+				evt.currentTarget.className += " active";
+			} else{
+				for(i=0; i < x.length; i++){
+					x[i].style.display="block";
+				}
 			}
-			document.getElementById(tabName).style.display="block";
-			evt.currentTarget.className += " active";
 		}
 		//Image effects
 		function appear(des, bgImg){
-			document.getElementById(des).style.display="block";
-			document.getElementById(bgImg).style.transform="scale(2,2)";
-			document.getElementById(bgImg).style.webkitTransform="scale(2,2)";
-			document.getElementById(bgImg).style.msTransform="scale(2,2)";
-			document.getElementById(bgImg).style.opacity="0.7";
+			if ( screen.width > 1000){
+				document.getElementById(des).style.display="block";
+				document.getElementById(bgImg).style.transform="scale(2,2)";
+				document.getElementById(bgImg).style.webkitTransform="scale(2,2)";
+				document.getElementById(bgImg).style.msTransform="scale(2,2)";
+				document.getElementById(bgImg).style.opacity="0.7";
+			}
 		}
 		function disappear(des, bgImg){
-			document.getElementById(des).style.display="none";
-			document.getElementById(bgImg).style.transform="scale(1,1)";
-			document.getElementById(bgImg).style.webkitTransform="scale(1,1)";
-			document.getElementById(bgImg).style.msTransform="scale(1,1)";
-			document.getElementById(bgImg).style.opacity="1";
+			if ( screen.width > 1000){
+				document.getElementById(des).style.display="none";
+				document.getElementById(bgImg).style.transform="scale(1,1)";
+				document.getElementById(bgImg).style.webkitTransform="scale(1,1)";
+				document.getElementById(bgImg).style.msTransform="scale(1,1)";
+				document.getElementById(bgImg).style.opacity="1";
+			}
 		}
 
 		//Scrolling
