@@ -888,6 +888,12 @@
 		//Load at the beginnin
 		document.getElementById("video").style.display="block";
 
+		if(screen.width < 1000){
+			tabDes = document.getElementsByClassName("tab");
+			for(i=0; i<tabDes.length; i++){
+				tabDes.style.display="block";
+			}
+		}
 		//Function for the effects
 		//Description effects
 		function openTab(evt, tabName){
