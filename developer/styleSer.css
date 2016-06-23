@@ -135,19 +135,19 @@
 }
 
 /*For mobile*/
-@media screen and (max-device-width:1080px){
+@media screen and (min-device-width:1080px){
   .tab{
     display:block;
-    background-color:rgba(0,0,0,0.5);
-    color:white!important;
-    width:400px;
+    background-color:rgba(255,255,255,0.7);
+    color:#d51821!important;
+    width:90%;
     border-radius:10px;
     padding:5px;
   }
   .tabImg{
-    opacity:0.7;
-    -webkit-filter:blur(2px);
-    -ms-filter:blur(2px);
-    filter:blur(2px);
+    opacity:0.3;
+    -webkit-filter:blur(0.5px);
+    -ms-filter:blur(0.5px);
+    filter:blur(0.5px);
   }
 }
