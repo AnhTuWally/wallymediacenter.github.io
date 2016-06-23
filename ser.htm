@@ -889,10 +889,17 @@
 		document.getElementById("video").style.display="block";
 
 		if(screen.width < 1000){
-			tabDes = document.getElementsByClassName("tab");
-			for(i=0; i<tabDes.length; i++){
-				tabDes.style.display="block";
-			}
+			document.getElementById("vidDes").style.display="block";
+			document.getElementById("audDes").style.display="block";
+			document.getElementById("printDes").style.display="block";
+			document.getElementById("gdDes").style.display="block";
+			document.getElementById("resourceDes").style.display="block";
+
+			document.getElementById("vidImg").style.opacity="0.7";
+			document.getElementById("audImg").style.opacity="0.7";
+			document.getElementById("printImg").style.opacity="0.7";
+			document.getElementById("gdImg").style.opacity="0.7";
+			document.getElementById("resourceImg").style.opacity="0.7";
 		}
 		//Function for the effects
 		//Description effects
