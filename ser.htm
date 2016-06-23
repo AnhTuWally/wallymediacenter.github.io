@@ -885,7 +885,7 @@
 
 <!--Script for handling bars-->
 <script>
-		//Load at the beginning
+		//Load at the beginnin
 		document.getElementById("video").style.display="block";
 
 		//Function for the effects
@@ -898,18 +898,12 @@
 			tablinks = document.getElementsByClassName("tab");
 
 			//Reset by default the variables
-			if(screen.width > 1000){
-				for(i=0; i < x.length; i++){
-					x[i].style.display="none";
-					tablinks[i].className = tablinks[i].className.replace(" active", "");
-				}
-				document.getElementById(tabName).style.display="block";
-				evt.currentTarget.className += " active";
-			} else{
-				for(i=0; i < x.length; i++){
-					x[i].style.display="block";
-				}
+			for(i=0; i < x.length; i++){
+				x[i].style.display="none";
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
 			}
+			document.getElementById(tabName).style.display="block";
+			evt.currentTarget.className += " active";
 		}
 		//Image effects
 		function appear(des, bgImg){
