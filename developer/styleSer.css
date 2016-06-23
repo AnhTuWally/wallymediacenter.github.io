@@ -129,6 +129,7 @@
 
 @media screen and (max-width:800px){
 	.tab{font-size:7vw!important;}
+  .content{font-size:13pt;}
 }
 @media screen and (min-width:800px){
 	.col{width:50%;}
