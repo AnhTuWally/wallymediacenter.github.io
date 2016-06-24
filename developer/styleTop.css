@@ -9,10 +9,16 @@
 	display:none;
 }
 /*Title*/
+
+.navButton{
+	background-color: white;
+	border:none;
+	color:#e62827;
+}
+
 h1.titleTop{
 	margin-top:10px!important;
 	font-size:35pt!important;
-	color:#e62827;
 	font-family: sans-serif;
 }
 
@@ -24,22 +30,6 @@ h1.titleTop{
 	z-index:100;
 }
 
-.dropNav:hover .dropLinks{
-	visibility:visible;
-	opacity:1;
-	transform:translateY(0%);
-	-webkit-transform:translateY(0%);
-	-ms-transform:translateY(0%);
-	transition-delay:0s;
-}
-
-.dropNav:hover .navArrow2{
-	opacity:0;
-	-webkit-transform:rotate(90deg);
-	transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-}
-
 .dropNav td{
 	text-align:center;
     vertical-align:middle;
@@ -49,23 +39,40 @@ h1.titleTop{
 	padding-top:15px;
 	padding-bottom:10px;
 	opacity:1;
-	transition: all 0.3s ease 0s, visibility 0s linear 0.3s;
 	display: block;
 	height:60px;
+	transition: all 0.3s ease 0s, visibility 0s linear 0.3s;
 }
 
+.navArrow2show{
+	opacity:0;
+	-webkit-transform:rotate(90deg);
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+}
+
+
 .dropLinks{
+	visibility:hidden;
 	position:absolute;
 	background-color:rgba(0,0,0,0.85);
-	visibility:hidden;
-	min-width:100%;
 	opacity:0;
+	min-width:100%;
 	top:75%;
 	left:0;
 	transform:translateY(10%);
 	-webkit-transform:translateY(10%);
 	-ms-transform:translateY(10%);
 	transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
+}
+
+.dropLinksShow{
+	visibility:visible;
+	opacity:1;
+	transform:translateY(0%);
+	-webkit-transform:translateY(0%);
+	-ms-transform:translateY(0%);
+	transition-delay:0s;
 }
 
 .dropLinks a{

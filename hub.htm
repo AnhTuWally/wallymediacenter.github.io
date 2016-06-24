@@ -695,15 +695,17 @@
 	</div>
 
 	<!--Navigation with drop down-->
-    <div align="center">
-		<div class = "dropNav">
+    <div align="center" id = "dropNav">
+			<div class = "dropNav" >
     		<h1 class="titleTop" align="center">
-    			<table>
-    				<tr>
-		    			<td>Media Center Hub</td>
-		    			<td><img src ="img/nav/nav_arrow.png" class="navArrow2"></td>
-					</tr>
-    			</table>
+					<button class="navButton" onclick="dropNavFunction();">
+						<table>
+	    				<tr>
+			    			<td id="navTitle">Media Center Hub</td>
+			    			<td><img src ="img/nav/nav_arrow.png" class="navArrow2" id="navArrow2"></td>
+						</tr>
+	    			</table>
+					</button>
     		</h1>
     		<div class ="dropLinks" id="dropLinks">
     			<a href="ser.htm">Service and Resource</a>
@@ -712,6 +714,34 @@
     	</div>
     </div>
 
+		<script>
+			//For the drop bar
+			function dropNavFunction(){
+				var dropLinks = document.getElementById("dropLinks");
+				var navArrow2 = document.getElementById("navArrow2");
+
+				if(!dropLinks.classList.contains("dropLinksShow")){
+					dropLinks.classList.add("dropLinksShow");
+					navArrow2.classList.add("navArrow2show");
+				} else {
+					dropLinks.classList.remove("dropLinksShow");
+					navArrow2.classList.remove("navArrow2show");
+				}
+			}
+
+			window.onclick = function(event){
+				var dropLinks = document.getElementById("dropLinks");
+				var navArrow2 = document.getElementById("navArrow2");
+
+				if(event.target.id !== "navTitle" && event.target.id !== "navArrow2"){
+					if(dropLinks.classList.contains("dropLinksShow")){
+						dropLinks.classList.remove("dropLinksShow");
+						navArrow2.classList.remove("navArrow2show");
+					}
+				}
+
+			}
+		</script>
     <!--HUB DESCRIPTION-->
     <p class="titleDes">
         <span style="color:#d51821;">The Wabash Media Center</span> is the place where campus media contents are produce professionally by our student wokers. We produce media material for Wabash such as <span style="color:#d51821;">posters</span>, <span style="color:#d51821;">podcasts</span>, <span style="color:#d51821;">promotional videos</span>, and <span style="color:#d51821;">live broadcastings</span>. We also provide service in <span style="color:#d51821;">printing</span>, <span style="color:#d51821;">laminating</span>, as well as <span style="color:#d51821;">media producing and editing</span>.
