@@ -696,23 +696,51 @@
 	</div>
 
 	<!--Navigation with drop down-->
-	<div align="center">
-		<div class = "dropNav">
-    		<h1 class="titleTop">
-    			<table>
-    				<tr>
-		    			<td>Service And Resource</td>
-		    			<td><img src ="img/nav/nav_arrow.png" class="navArrow2"></td>
-					</tr>
-    			</table>
-    		</h1>
-    		<div class ="dropLinks">
-    			<a href="hub.htm">Media Center Hub</a>
+		<div align="center">
+			<div class = "dropNav" >
+					<button class="navButton" onclick="dropNavFunction();">
+						<table>
+							<tr>
+								<td><h1 class="titleTop" align="center" id="navTitle">Service And Resource</h1></td>
+								<td><img src ="img/nav/nav_arrow.png" class="navArrow2" id="navArrow2"></td>
+							</tr>
+						</table>
+					</button>
+				<div class ="dropLinks" id="dropLinks">
+					<a href="hub.htm">Media Center Hub</a>
     			<a href="mcteam.htm">Our Team</a>
-    		</div>
-    	</div>
-    </div>
-	<!--End-->
+				</div>
+			</div>
+		</div>
+
+		<script>
+			//For the drop bar
+			function dropNavFunction(){
+				var dropLinks = document.getElementById("dropLinks");
+				var navArrow2 = document.getElementById("navArrow2");
+
+				if(!dropLinks.classList.contains("dropLinksShow")){
+					dropLinks.classList.add("dropLinksShow");
+					navArrow2.classList.add("navArrow2show");
+				} else {
+					dropLinks.classList.remove("dropLinksShow");
+					navArrow2.classList.remove("navArrow2show");
+				}
+			}
+
+			window.onclick = function(event){
+				var dropLinks = document.getElementById("dropLinks");
+				var navArrow2 = document.getElementById("navArrow2");
+
+				if(event.target.id !== "navTitle" && event.target.id !== "navArrow2"){
+					if(dropLinks.classList.contains("dropLinksShow")){
+						dropLinks.classList.remove("dropLinksShow");
+						navArrow2.classList.remove("navArrow2show");
+					}
+				}
+			}
+		</script>
+		<!--End navigation-->
 
 
 	<!--Tab navigation container-->
