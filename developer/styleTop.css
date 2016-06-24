@@ -20,6 +20,7 @@ h1.titleTop{
 	margin-top:10px!important;
 	font-size:35pt!important;
 	font-family: sans-serif;
+	width:100%;
 }
 
 /*Dropdown menu*/
@@ -32,7 +33,7 @@ h1.titleTop{
 
 .dropNav td{
 	text-align:center;
-    vertical-align:middle;
+  vertical-align:middle;
 }
 
 .navArrow2{
