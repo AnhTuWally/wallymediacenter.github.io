@@ -1,41 +1,17 @@
 @font-face {
-  font-family: 'Righteous';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v5/w5P-SI7QJQSDqB3GziL8XbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
 }
 
 /*Banner and title*/
-.bannerImg{
-	width:100%
-}
-
-.bannerImgMobile{
-	width:100%;
-	display:none;
-}
 
 .containerContent{
 	position:relative;
 	overflow:hidden;
+  font-family: 'Lato'!important;
 }
-.containerBgImg{
-  position:fixed;
-  z-index:-1;
-}
-
-.title{
-	text-align:center;
-	color:#FF2400;
-	background-color:rgba(255,255,255,0.5);
-    margin:0 auto;
-    padding:50px;
-    transition:0.4s;
-    font-size:30pt;
-    font-family: sans-serif;
-    transition:0.4s;
-}
-
 /*Director*/
 
 .containerDirector{
