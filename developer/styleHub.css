@@ -18,14 +18,14 @@ h2.hub{
 }
 
 .dirEmail{
-	color:#707070!important; 
-	border-bottom:3px solid #707070; 
+	color:#707070!important;
+	border-bottom:3px solid #707070;
 	text-decoration:none!important;
 }
 
 .dirEmail:hover{
-	color:#d51821!important; 
-	border-bottom-color:#d51821; 
+	color:#d51821!important;
+	border-bottom-color:#d51821;
 }
 
 .ftlinks{
@@ -33,6 +33,9 @@ h2.hub{
     margin-bottom:10px;
 }
 
+.ftlinks img{
+  padding:5%;
+}
 .ftlinks img:hover{
     opacity:0.8;
 }
@@ -44,9 +47,9 @@ h2.hub{
 /*podcast*/
 .podcastLink{
 	font-family: 'Lato';
-	text-decoration:none!important;	
+	text-decoration:none!important;
 	color:#d51821!important;
-	font-size:30px; 
+	font-size:30px;
 	display:block;
 	background-color:white;
 	max-width:350px;
@@ -88,7 +91,7 @@ h2.hub{
 	opacity:0.9;
 	box-shadow: 0px 5px 10px 1px #000000;
 }
-	
+
 .podcastButton:active{
 	transform: translate(1px, 2px);
 	-webkit-transform:translate(1px, 2px); /*safari*/
@@ -99,9 +102,9 @@ h2.hub{
 /*Yotube*/
 .youtubeLink{
 	font-family: 'Lato';
-	text-decoration:none!important;	
+	text-decoration:none!important;
 	color:white!important;
-	font-size:30px; 
+	font-size:30px;
 	display:block;
 	background-color:#d51821;
 	max-width:350px;
@@ -154,7 +157,7 @@ h2.hub{
 
 .youtubePlaylist{
 	position:relative;
-	width:960px;	
+	width:960px;
 }
 
 .playListTitle{
@@ -217,7 +220,7 @@ h2.hub{
 	font-family: 'Lato';
 	text-decoration:none!important;
 	color:#565656!important;
-	font-size:30px; 
+	font-size:30px;
 	display:block;
 	background-color:white;
 	max-width:200px;
@@ -232,7 +235,7 @@ h2.hub{
 	opacity:0.9;
 	box-shadow: 2px 5px 10px 1px #000000;
 }
-	
+
 .liveLink:active{
 	transform: translate(1px, 2px);
 	-webkit-transform:translate(1px, 2px); /*safari*/
@@ -252,8 +255,8 @@ h2.hub{
 @media screen and (max-width:1300px){
 		.youtubePlaylist{
 			width:70%;
-			transition-duration:0.5s;	
-		}	
+			transition-duration:0.5s;
+		}
 		ls#level1{display:none;}
 }
 
@@ -271,11 +274,10 @@ h2.hub{
 		.youtubeLink{
 			max-width:220px;
 		}
-		.playListTitle{margin-left:0px;}	
+		.playListTitle{margin-left:0px;}
 		.titleDes{font-size:13pt;}
+
+    .ftlinks img{
+      padding:0;
+    }
 }
-
-
-
-
-	
