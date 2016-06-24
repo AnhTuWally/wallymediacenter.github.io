@@ -92,7 +92,7 @@
 				<form id="searchForm" class="navbar-form navbar-left" action="http://www.wabash.edu/search.cfm" role="search">
 			      	<div class="form-group">
                        	<label class="sr-only" for="wabashsearchsm">Search Wabash</label>
-			        	<input type="text" id="wabashsearchsm" class="input-sm form-control" name="q" onclick="this.placeholder=&#39;&#39;" placeholder="Search Wabash...">
+			        	<input type="text" id="wabashsearchsm" class="input-sm form-control" name="q" onchange="this.placeholder=&#39;&#39;" placeholder="Search Wabash...">
 			      	</div>
 			      	<button type="submit" class="btn btn-sm btn-default"><span id="searchIcon" class="glyphicon glyphicon-search"></span>Search</button>
 			    </form>
@@ -696,7 +696,7 @@
 
 	<!--Navigation with drop down-->
 		<div align="center">
-			<div class = "dropNav" >
+			<div class = "dropNav" class="navButton">
 					<button class="navButton" onclick="dropNavFunction();">
 						<table>
 	    				<tr>
@@ -712,8 +712,9 @@
     	</div>
 		</div>
 
-		<script>
+		<script language="javascript">
 			//For the drop bar
+
 			function dropNavFunction(){
 				var dropLinks = document.getElementById("dropLinks");
 				var navArrow2 = document.getElementById("navArrow2");
@@ -731,13 +732,14 @@
 				var dropLinks = document.getElementById("dropLinks");
 				var navArrow2 = document.getElementById("navArrow2");
 
-				if(event.target.id !== "navTitle" && event.target.id !== "navArrow2"){
+				if(event.target.id !== "navTitle" && event.target.id !== "navArrow2" && event.target.className !== "navButton"){
 					if(dropLinks.classList.contains("dropLinksShow")){
 						dropLinks.classList.remove("dropLinksShow");
 						navArrow2.classList.remove("navArrow2show");
 					}
 				}
 			}
+
 		</script>
 		<!--End navigation-->
 
