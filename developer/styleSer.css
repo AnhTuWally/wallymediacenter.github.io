@@ -145,6 +145,8 @@
     border-radius:10px;
     padding:5px;
   }
+
+  .containerSer{background-color:white!important;}
   .tabImg{
     -webkit-filter:blur(0.5px);
     -ms-filter:blur(0.5px);
