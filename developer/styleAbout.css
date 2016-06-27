@@ -59,6 +59,8 @@
   z-index:2!important;
 }
 
+.containerDirector a{color:black!important;}}
+
 .containerDirector h2{
 	font-size:30pt;
 }
@@ -137,7 +139,6 @@
   margin:0 auto;
   padding:30px;
 }
-
 
 .bgImg{
 	position:absolute;
