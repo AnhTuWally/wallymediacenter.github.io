@@ -164,6 +164,6 @@
 }
 
 @media screen and (max-device-width:1020px){
-  .visionImg{display:none;}
-  .visionImgActivated{display:block;}
+  .visionImg{display:block;}
+  .visionImgActivated{display:none;}
 }
