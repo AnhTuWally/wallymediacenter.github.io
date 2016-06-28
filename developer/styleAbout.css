@@ -67,16 +67,26 @@
 
 .dirName{
 	font-size:25pt;
-	color:white!important;
+	color:white;
 }
 
 .containerDirector:hover .dirName{
-	color:black!important;;
+	color:black;
 }
 
 .containerDirector:hover .dirContact{
 	color:black;
 }
+
+.dirContact a{
+  color:white!important;
+
+}
+
+.containerDirector:hover .dirContact a{
+	color:black!important;
+}
+
 
 .directorImg{
 	position:absolute;
