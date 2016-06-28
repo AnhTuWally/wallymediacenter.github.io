@@ -67,11 +67,11 @@
 
 .dirName{
 	font-size:25pt;
-	color:white;
+	color:white!important;
 }
 
 .containerDirector:hover .dirName{
-	color:black;
+	color:black!important;;
 }
 
 .containerDirector:hover .dirContact{
