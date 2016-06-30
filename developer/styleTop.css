@@ -21,6 +21,7 @@ h1.titleTop{
 	font-size:35pt!important;
 	font-family: sans-serif;
 	width:100%;
+	line-height:40px!important;
 }
 
 /*Dropdown menu*/
@@ -59,7 +60,7 @@ h1.titleTop{
 	background-color:rgba(0,0,0,0.85);
 	opacity:0;
 	min-width:100%;
-	top:75%;
+	top:85%;
 	left:0;
 	transform:translateY(10%);
 	-webkit-transform:translateY(10%);
