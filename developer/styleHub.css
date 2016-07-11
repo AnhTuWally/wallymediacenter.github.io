@@ -258,7 +258,7 @@ h2.hub{
 			width:70%;
 			transition-duration:0.5s;
 		}
-		ls#level1{display:none;}
+		li#level1{display:none;}
 }
 
 @media screen and (max-width:850px){

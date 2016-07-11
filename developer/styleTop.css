@@ -1,35 +1,19 @@
 /*Banner Title and top navigation*/
 
 /*Banner*/
-.bannerImg{
-	display:inline
-}
-
-.bannerImgMobile{
-	display:none;
-}
-/*Title*/
-
-.navButton{
-	background-color: white;
-	border:none;
-	color:#e62827;
-}
-
-h1.titleTop{
-	margin-top:10px!important;
-	font-size:35pt!important;
-	font-family: sans-serif;
-	width:100%;
-	line-height:40px!important;
+.logo{
+	display:inline;
+	height:350px;
 }
 
 /*Dropdown menu*/
 .dropNav{
 	position:relative;
+	margin-top:125px;
 	display:inline-block;
 	transition: 0.5s;
 	z-index:100;
+	transition: all 0s;
 }
 
 .dropNav td{
@@ -54,13 +38,31 @@ h1.titleTop{
 }
 
 
+/* - Title*/
+
+.navButton{
+	background-color: white;
+	border:none;
+	color:#e62827;
+	width:500px;
+}
+
+h1.titleTop{
+	margin-top:10px!important;
+	font-size:35pt!important;
+	font-family: sans-serif;
+	width:100%;
+	line-height:50px!important;
+}
+
+
 .dropLinks{
 	visibility:hidden;
 	position:absolute;
 	background-color:rgba(0,0,0,0.85);
 	opacity:0;
 	min-width:100%;
-	top:85%;
+	top:100%;
 	left:0;
 	transform:translateY(10%);
 	-webkit-transform:translateY(10%);
@@ -89,34 +91,26 @@ h1.titleTop{
 	background-color:#e62827;
 }
 
-@media screen and (max-width:991px){
-	h1.titleTop{font-size:25pt!important;}
+@media screen and (max-width:1199px){
+	.dropNav{margin-top:0px;}
 }
 
 
 @media screen and (max-width:767px){
-	.bannerImg{
-		display:none;
+	.navButton{
+		width:auto;
 	}
-	.bannerImgMobile{
-		display:inline;
-	}
-
 	h1.titleTop{
 		font-size:8.9vw!important;
 		line-height:100%!important;
 	}
 
 	.dropNav table{
-		margin-left:13%;
+		margin-left:10%;
 	}
 
-	.dropNav:hover .dropLinks{
-		transform:translateY(15%);
-		-webkit-transform:translateY(15%);
-		-ms-transform:translateY(15%);
-	}
 
 	.navArrow2{
 		height:70px;
 	}
+}
