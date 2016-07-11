@@ -3,13 +3,13 @@
 /*Banner*/
 .logo{
 	display:inline;
-	height:350px;
+	max-height:400px;
 }
 
 /*Dropdown menu*/
 .dropNav{
 	position:relative;
-	margin-top:125px;
+	margin-top:150px;
 	display:inline-block;
 	transition: 0.5s;
 	z-index:100;
