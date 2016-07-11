@@ -111,6 +111,33 @@
 
 .content a:hover{border-bottom-color:#d51821;}
 
+.contentButton{
+  font-family: 'Lato';
+  color:#AE0F0E;
+  font-size:30px;
+  display:inline;
+  background-color:white;
+  max-width:400px;
+  border-radius:10px;
+  box-shadow:2px 4px 8px 0px black;
+  padding:8px;
+  margin:10px 30px 10px;
+  border:1px solid #FFF;
+  transition-duration:0.01s;
+}
+
+.contentButton:hover{
+  opacity:0.9;
+  box-shadow: 2px 5px 10px 1px #000000;
+}
+
+.contentButton:active{
+	transform: translate(1px, 2px);
+	-webkit-transform:translate(1px, 2px); /*safari*/
+	-ms-transform:translateY(1px, 2px); /*IE 9*/
+	box-shadow: 0px 2px 4px 0px #000000;
+}
+
 /*contact Us*/
 .contactUs{
   font-family: 'Lato';
