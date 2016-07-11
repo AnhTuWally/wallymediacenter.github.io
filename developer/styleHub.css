@@ -161,6 +161,12 @@ h2.hub{
 	width:960px;
 }
 
+.youtubeList ul{
+  list-style-type: none;
+}
+
+.youtubeList li{display:inline;}
+
 .playListTitle{
 	margin-left:50px;
 }
