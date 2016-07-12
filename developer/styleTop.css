@@ -1,6 +1,6 @@
 /*Banner Title and top navigation*/
 
-/*Banner*/
+/*STYLE for the logo of the banner*/
 .logo{
 	display:inline;
 	max-height:400px;
@@ -38,7 +38,7 @@
 }
 
 
-/* - Title*/
+/*Title*/
 
 .navButton{
 	background-color: white;
@@ -55,7 +55,7 @@ h1.titleTop{
 	line-height:50px!important;
 }
 
-
+/*The links that drop down when the title is clicked*/
 .dropLinks{
 	visibility:hidden;
 	position:absolute;
@@ -91,11 +91,12 @@ h1.titleTop{
 	background-color:#e62827;
 }
 
+/*Transition between title on the right of the logo to the bottom of the logo*/
 @media screen and (max-width:1199px){
 	.dropNav{margin-top:0px;}
 }
 
-
+/*Transition between Desktop view and mobile/small view*/
 @media screen and (max-width:767px){
 	.navButton{
 		width:auto;
@@ -104,12 +105,9 @@ h1.titleTop{
 		font-size:8.9vw!important;
 		line-height:100%!important;
 	}
-
 	.dropNav table{
 		margin-left:10%;
 	}
-
-
 	.navArrow2{
 		height:70px;
 	}

@@ -716,20 +716,29 @@
 	<!--Begin Prototype-------------------------------------------------->
 
 
-	<!--Navigation with drop down menu | Linked to developer/styleTop.css and developer/dropnav.js-->
+	<!--Begin--Navigation with drop down menu | Linked to developer/styleTop.css and developer/dropnav.js-->
 		<!--"div" tag
 			- stands for division
-			- used for dividing the page into different divisions for having different style/appearance-->
+			- used for dividing the page into different divisions for having different style/appearance
+			--"style" atribute
+		  - used for describing the style/appearance of that section/division-->
 		<div align="center" style="padding-top:20px;">
 			<!--"img" tag
 				- used for embedding picture into the page-->
+			<img src="img/logo/logo.png" class="img-responsive logo">
 			<!--"class" attribute
 				- used for specify a group of objects that share the same behavior/appearace-->
-			<img src="img/logo/logo.png" class="img-responsive logo">
 			<div class = "dropNav navButton">
+				<!--"button" tag
+					-	creat a button that is clickable
+				  - "onclick" attribute activate a javascript function called "dropNavFunction()"-->
 				<button class="navButton" onclick="dropNavFunction();">
 					<!--This is the title of the page. It will appear by default.-->
-					<!--"table" tag | -->
+					<!--"table" tag
+						- used for creating tale for the webpage
+					  	- "tr" tag : stands for table row
+							- "td" tag : stands for table data
+							- the table is drawn row by row-->
 					<table align="center">
 	    			<tr>
 			  			<td><h1 class="titleTop" align="center" id="navTitle">Media Center Hub</h1></td>
@@ -747,17 +756,26 @@
     	</div>
 		</div>
 
+		<!--"script" tag
+			- used for specifying a section of code that is in javascript
+			- this script tag is used to link to an external javascript file called "dropNav.js"-->
 		<script src="developer/dropNav.js" language="javascript"></script>
-		<!--End navigation-->
+		<!--End--Navigation-->
 
     <!--HUB DESCRIPTION-->
+		<!--"p" tag
+			- stands for paragraph
+			- used for specify a section of text that will appear as a paragraph on the page-->
     <p class="titleDes">
+				<!--"span" tag | used for specify a section of text that have different style than the default or inherited style.-->
         <span style="color:#d51821;">The Wabash Media Center</span> is the place where campus media contents are produced professionally by our student workers. We produce media material for Wabash such as <span style="color:#d51821;">posters</span>, <span style="color:#d51821;">podcasts</span>, <span style="color:#d51821;">promotional videos</span>, and <span style="color:#d51821;">live broadcastings</span>. We also provide service in <span style="color:#d51821;">printing</span>, <span style="color:#d51821;">laminating</span>, as well as <span style="color:#d51821;">media producing and editing</span>.
     	<br>It is also a <span style="color:#d51821;">dynamic workplace </span>for students and faculties. We have 14 iMac workstations, all of which has software for photo, audio, and video editing.
     	<br>Contact us at: <span style="color:#d51821;">765-361-6451</span> (operator desk) and <span style="color:#d51821;">765-361-6261</span> (<a href="mailto:phippsa@wabash.edu" class="dirEmail">Adam Phipps</a> - MC Director)
         <br>You can follow our work via Facebook and Twitter or visit the recommended pages for inspiration.
     </p>
     <div class = "ftlinks" align="center">
+				<!--"a" tag
+					- used for specify a link to different page or local file-->
         <a href="http://www.facebook.com/WabashCollegeMediaCenter" target="_blank"><img src="img/icon/facebook_icon.png" title="Media Center Facebook"></a>
         <a href="https://twitter.com/#!/WabCoMediaCtr" target="_blank"><img src="img/icon/twiter_icon.png" title="Media Center Twitter"></a>
 				<a href="http://designspiration.net/" target="_blank"><img src="img/icon/designinspiration_icon.png" title="Designinspiration"></a>
@@ -771,26 +789,24 @@
     <!--PODCAST Section-->
     <div class="mediaPodcast" align="center" style="background: url(img/background/podcast_background.png) center;" id="WabashOnMyMind">
     	<a href="https://wabashcollege.libsyn.com" target="_none" type="button" class="podcastLink">Wabash On My Mind</a>
-		<!--Embeded player-->
+		<!--Embeded player | CODE from libsyn-->
 		<iframe style="border: 5px solid black" src="https://html5-player.libsyn.com/embed/destination/id/192286/height/300/width/450/theme/custom/autoplay/no/autonext/no/preload/no/no_addthis/no/thumbnail/yes/direction/backward/no-cache/true/render-playlist/yes/custom-color/d60000/" height="300" width="70%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
         <br>
-
         <!--Subscribe to itunes button-->
         <div style="margin-top:30px">
-			<a href="https://itunes.apple.com/us/podcast/wabash-on-my-mind/id855321475?mt=2" target="_none" class="podcastButton" type="button"><img src="img/icon/podcast_icon.jpg" height="25px"> Subscribe on iTunes </a>
+					<a href="https://itunes.apple.com/us/podcast/wabash-on-my-mind/id855321475?mt=2" target="_none" class="podcastButton" type="button"><img src="img/icon/podcast_icon.jpg" height="25px"> Subscribe on iTunes </a>
         </div>
     </div>
 
     <!--YOUTUBE Section-->
-	<div class="media" align="center" style="background: url(img/background/youtube_background.png) center;">
+		<div class="media" align="center" style="background: url(img/background/youtube_background.png) center;">
   		<a href="https://www.youtube.com/user/WabashCollege" target="_none" type="button" class="youtubeLink">Wabash YouTube</a>
-
-  		<!--Youtube Player-->
+  		<!--Youtube Player | from youtube-->
   		<div class="youtubeContainer">
     		<iframe  class="youtubeVideo" src="https://www.youtube.com/embed/videoseries?list=PL5075737515985AE4" frameborder="0" allowfullscreen></iframe>
    		</div>
 
-  		<!--Youtube playlist-->
+  		<!--Youtube playlist | A list of youtube playlist on Wabash Youtube channel-->
     	<div class="youtubePlaylist" align="center">
     		<h2 class = "hub playListTitle" align="left"><a href="https://www.youtube.com/user/WabashCollege/playlists" style="text-decoration:none; color:white;"><img src="img/icon/youtube_icon.png" height="25px"> Playlist</a></h2>
    			<ul class="youtubeList" style="padding-left:0px;">
@@ -801,26 +817,27 @@
         		<li id="level1"><a href="https://www.youtube.com/watch?v=awqffOnAss8&list=PL7921255E6AEE0C30" class="youtubeButton" type="button" target="_none">Lecture Series</a></li>
                 <li id="level1"><a href="https://www.youtube.com/playlist?list=PLWYJn6ctkE0BnNSKLk1mJQ4Gmk49Jasq4" class="youtubeButton" type="button" target="_none">The Monon Bell - Through the Years</a></li>
     		</ul>
-		</div>
- 	</div>
+			</div>
+ 		</div>
  	<!--Live Stream-->
  	<div class="liveStream" align="center">
  		<a href="https://www.wabash.edu/live/" target="_none" class="liveLink" type="button"><span style="color:#d51821;">Live</span>Stream</a>
  	</div>
 
-    <!--Hours and location-->
-    <div class="hourloc">
+  <!--Hours and location-->
+  <div class="hourloc">
 		<table align style="width:100%;">
-        	<tr style="color:white;">
-            	<td style="align:left; vertical-align:top;"> Location: Lilly Library <br>West end, First Floor</td>
-            	<td align="right">Hours <br>
-            		Monday Thursday: 8am-1:30am  <br>
-					Friday: 8am-10pm <br>
-					Saturday: 10am-10pm <br>
-					Sunday: Noon-2am
-                </td>
-        </table>
-    </div>
+    	<tr style="color:white;">
+        	<td style="align:left; vertical-align:top;"> Location: Lilly Library <br>West end, First Floor</td>
+        	<td align="right">Hours <br>
+        		Monday Thursday: 8am-1:30am  <br>
+						Friday: 8am-10pm <br>
+						Saturday: 10am-10pm <br>
+						Sunday: Noon-2am
+          </td>
+			</tr>
+  	</table>
+  </div>
 
 
 
