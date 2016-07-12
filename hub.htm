@@ -36,15 +36,25 @@
 	<script type="text/javascript" src="./envi_files/custom.v2.js"></script>
 
   <!--BEGIN----From Prototype || Tittle and Metadata for SEO------------------------------------------------>
-	<!--"title" tag, appears on the top of the web browser.
-	It plays an important roles in SEO and the appearance of the webstie-->
+	<!--"title" tag:
+		- Appears on the top of the web browser.
+		- Plays an important roles in SEO and the appearance of the webstie-->
 	<title>Wabash College: Media Center | HUB</title>
 
-	<!--"meta" tag | Description, --->
+	<!--"meta" tag | Description
+		- Appears on google seach along with the title
+		- Serves as a short descriptive paragraph on the website
+		- one of the flag that search engine looks for-->
 	<meta name="description" content="The Wabash Media Center is the place where campus media contents are produced professionally by our student workers. It is also equiped with professional equipment for producing media content">
 
+	<!--"meta" tag | Keywords
+		- Will not appear anywhere. However, it will be one of the things that search engine look at
+		- The keywords must be short and consise-->
 	<meta name="keywords" content="Wabash College, Wabash College Media Center, Wally Media Center, Wabash on My Mind, Wabash Youtube, Wabash Live, live broadcast, design, printing, lamination">
 
+	<!--"link" tag | stylesheet
+		- links the html page to an external css style sheet
+		- the style sheet will serves as a description of how the website will appear-->
   <link rel="stylesheet" type="text/css" href="developer/styleHub.css">
   <link rel="stylesheet" type="text/css" href="developer/styleTop.css">
 
@@ -700,21 +710,36 @@
     </style>
 
 	<script src="./envi_files/captionate.js"></script>
-	<!--Begin testing-------------------------------------------------->
 
-	<!--Navigation with drop down-->
 
-		<div align="center">
-      <img src="img/logo/logo.png" class="img-responsive logo">
-			<div class = "dropNav" class="navButton">
-					<button class="navButton" onclick="dropNavFunction();">
-						<table align="center">
-	    				<tr>
-			    			<td><h1 class="titleTop" align="center" id="navTitle">Media Center Hub</h1></td>
-			    			<td><img src ="img/nav/nav_arrow.png" class="navArrow2" id="navArrow2"></td>
-							</tr>
-	    			</table>
-					</button>
+
+	<!--Begin Prototype-------------------------------------------------->
+
+
+	<!--Navigation with drop down menu | Linked to developer/styleTop.css and developer/dropnav.js-->
+		<!--"div" tag
+			- stands for division
+			- used for dividing the page into different divisions for having different style/appearance-->
+		<div align="center" style="padding-top:20px;">
+			<!--"img" tag
+				- used for embedding picture into the page-->
+			<!--"class" attribute
+				- used for specify a group of objects that share the same behavior/appearace-->
+			<img src="img/logo/logo.png" class="img-responsive logo">
+			<div class = "dropNav navButton">
+				<button class="navButton" onclick="dropNavFunction();">
+					<!--This is the title of the page. It will appear by default.-->
+					<!--"table" tag | -->
+					<table align="center">
+	    			<tr>
+			  			<td><h1 class="titleTop" align="center" id="navTitle">Media Center Hub</h1></td>
+			  			<td><img src ="img/nav/nav_arrow.png" class="navArrow2" id="navArrow2"></td>
+						</tr>
+	    		</table>
+				</button>
+				<!--The div(division) below is hidden by default
+					 - It will only appear when the title is clicked
+				 	 - It will dissapear when user clicks on anywhere else on the page-->
     		<div class ="dropLinks" id="dropLinks">
     			<a href="ser.htm">Services and Resources</a>
     			<a href="about.htm">About Us</a>
@@ -797,7 +822,17 @@
         </table>
     </div>
 
-    <!--End Testing-->
+
+
+
+
+
+	<!--End Prototype------------------------------------------------------------->
+
+
+
+
+
 	<div class="row"> </div>
 						</div>
                      </div>
