@@ -9,7 +9,7 @@
 /*Dropdown menu*/
 .dropNav{
 	position:relative;
-	margin-top:150px;
+	margin-top:130px;
 	display:inline-block;
 	transition: 0.5s;
 	z-index:100;
