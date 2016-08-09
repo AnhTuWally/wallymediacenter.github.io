@@ -289,6 +289,9 @@ h2.hub{
 }
 
 @media screen and (max-width:850px){
+    .titleDesTable{
+      font-size:3vw;
+    }
 		.youtubeContainer{
 			position:relative;
 			width:70%;
