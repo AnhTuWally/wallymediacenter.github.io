@@ -125,10 +125,10 @@ h2.hub{
 .youtubeLink{
 	font-family: 'Lato';
 	text-decoration:none!important;
-	color:white!important;
+	color:#d51821!important;
 	font-size:30px;
 	display:block;
-	background-color:#d51821;
+	background-color:#FFFFFF;
 	max-width:350px;
 	border-radius:10px;
 	box-shadow: 0px 2px 5px 0px #000000;
@@ -152,13 +152,12 @@ h2.hub{
 
 
 .youtubeButton{
-	background-color:#d51821;
-	color:#FFFFFF!important;
+	background-color:#FFFFFF;
+	color:#000!important;
 	padding:15px 32px;
 	text-decoration:none!important;
 	display:inline-block;
 	font-size:20px;
-	border:2px solid #d51821;
 	border-radius:10px;
 	margin:10px;
 	box-shadow: 0px 2px 5px 0px #000000;
@@ -238,7 +237,6 @@ h2.hub{
 
 .liveStream{
 	margin:0px;
-	background-image: url("../img/background/livestream_background.png");
 	background-repeat: repeat;
 	padding-top:50px;
 	padding-bottom:50px;
