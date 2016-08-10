@@ -78,7 +78,7 @@
 
 /*Content of the graphic navigation*/
 .tabContent{
-	background-color:#AE0F0E;
+	background-color:#FFF;
 	float:left;
 	width:100%;
 	padding:50px 20px 50px 20px;
@@ -90,21 +90,22 @@
 
 .content{
 	padding:5px;
-	color:white;
+	color:#000;
 	font-family: 'Lato';
 	display:none;
 	font-size:20px;
 }
 
 .content h2{
-	color:black;
-	border: 3px solid white;
-	background-color:white;
+	color:#FFF;
+	padding: 3px;
+    margin-bottom:70px;
+	background-color:#000;
 	max-width:300px;
 }
 
 .content a{
-	color:white!important;
+	color:#AE0F0E!important;
 	border-bottom:3px solid white;
 	text-decoration:none!important;
 }
