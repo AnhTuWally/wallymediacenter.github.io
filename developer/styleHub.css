@@ -12,16 +12,16 @@ h2.hub{
 
 .titleDes{
   font-family: 'Lato';
-	padding:0px 30px 0px 30px;
-	font-size:25px;
+  padding:0px 30px 0px 30px;
+  font-size:25px;
   color:#707070;
 }
 
 .titleDesTable{
   font-family: 'Lato';
-	padding:0px 30px 0px 30px;
+  padding:0px 30px 0px 30px;
   margin-top: 50px;
-	font-size:15px;
+  font-size:18px;
   color:#707070;
   width:100%;
   text-align: center;
@@ -78,7 +78,7 @@ h2.hub{
 	border-radius:10px;
 	box-shadow: 0px 2px 5px 0px #000000;
 	padding:3px;
-	margin-top:50px;
+	margin-top:100px;
 	margin-bottom:50px;
 	transition-duration:0.01s;
 }
@@ -150,50 +150,8 @@ h2.hub{
 	box-shadow: 1px 2px 5px 1px black;
 }
 
-
-.youtubeButton{
-	background-color:#FFFFFF;
-	color:#000!important;
-	padding:15px 32px;
-	text-decoration:none!important;
-	display:inline-block;
-	font-size:20px;
-	border-radius:10px;
-	margin:10px;
-	box-shadow: 0px 2px 5px 0px #000000;
-	transition-duration:0.01s;
-}
-
-.youtubeButton:hover{
-		opacity:0.9;
-		box-shadow: 0px 5px 10px 1px #000000;
-	}
-
-.youtubeButton:active{
-	transform: translate(1px, 2px);
-	-webkit-transform:translate(1px, 2px); /*safari*/
-	-ms-transform:translateY(1px, 2px); /*IE 9*/
-	box-shadow: 0px 2px 4px 0px #000000;
-}
-
-.youtubePlaylist{
-	position:relative;
-	width:960px;
-}
-
-.youtubeList ul{
-  list-style-type: none;
-}
-
-.youtubeList li{display:inline;}
-
-.playListTitle{
-	margin-left:50px;
-}
-
 /*Youtube embed*/
 .media{
-	height: 850px;
 	position:relative;
 	overflow:hidden;
 	margin-top:0px;
@@ -221,7 +179,6 @@ h2.hub{
 	height:0;
 	padding-bottom:450px;
 	transition-duration:0.5s;
-	box-shadow: 0px 4px 8px 4px #000000;
 }
 
 .youtubeVideo{
@@ -239,7 +196,7 @@ h2.hub{
 	margin:0px;
 	background-repeat: repeat;
 	padding-top:50px;
-	padding-bottom:50px;
+	padding-bottom:30px;
 }
 
 .liveLink{
@@ -288,7 +245,7 @@ h2.hub{
 
 @media screen and (max-width:850px){
     .titleDesTable{
-      font-size:3vw;
+      font-size:13pt;
     }
 		.youtubeContainer{
 			position:relative;
