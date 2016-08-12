@@ -48,9 +48,9 @@
 
 .containerDirector{
 	position:relative;
-	background-color:rgb(174, 15, 14);
-  color:white;
-  width:90%;
+	background-color:#FFF;
+  color:black;
+  width:100%;
   margin:0 auto;
   padding:30px;
   overflow:hidden;
@@ -58,6 +58,9 @@
   transition:0.3s;
   z-index:2!important;
 }
+
+.containerDirector:hover {color:#707070;}
+.containerDirector:hover .directorDes{color:#707070;}
 
 .containerDirector .a{color:black!important;}}
 
@@ -67,24 +70,13 @@
 
 .dirName{
 	font-size:25pt;
-	color:white;
+	color:#000;
 }
 
-.containerDirector:hover .dirName{
-	color:black;
-}
-
-.containerDirector:hover .dirContact{
-	color:black;
-}
 
 .dirContact a{
-  color:white!important;
+  color:black!important;
 
-}
-
-.containerDirector:hover .dirContact a{
-	color:black!important;
 }
 
 
@@ -96,16 +88,16 @@
 	-ms-transform:translate(-50%,-50%);
 	-webkit-transform:translate(-50%,-50%);
 	z-index:-1;
-	opacity:0.3;
+	opacity:0.5;
 	transition:0.3s;
-	height:100%;
-  width:100%;
+    width:960px!important;;
+
 }
 
 .containerDirector:hover .directorImg{opacity:0;}
 
 .directorDes {
-    color:white;
+    color:#000;
     font-size:18pt;
 }
 
@@ -122,20 +114,11 @@
 	text-align:center;
 	color:#d51821;
 	background-color:white;
-	width:90%;
+    width:90%;
   margin:0 auto;
   padding:30px;
 }
 
-/*Roles | Scarlet background*/
-.containerRolls2{
-	text-align:center;
-	background-color:rgb(174, 15, 14);
-	color:white;
-	width:90%;
-  margin:0 auto;
-  padding:30px;
-}
 
 
 /*contact Us*/
