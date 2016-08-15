@@ -110,7 +110,10 @@
 	text-decoration:none!important;
 }
 
-.content a:hover{border-bottom-color:#d51821;}
+.content a:hover{
+  border-bottom-color:#d51821;
+  color:#d51821!important;
+}
 
 .contentButton{
   font-family: 'Lato';
