@@ -50,7 +50,6 @@ h2.hub{
 }
 
 .ftlinks{
-    margin-top:10px;
     margin-bottom:10px;
 }
 
@@ -179,6 +178,9 @@ h2.hub{
 	height:0;
 	padding-bottom:450px;
 	transition-duration:0.5s;
+  box-shadow: 5px 5px #818181;
+-webkit-box-shadow: 5px 5px 5px #818181;
+-moz-box-shadow: 5px 5px 5px #818181;
 }
 
 .youtubeVideo{
@@ -194,7 +196,7 @@ h2.hub{
 
 .liveStream{
 	margin:0px;
-	background-repeat: repeat;
+	background-color: #F6F6F6;
 	padding-top:50px;
 	padding-bottom:30px;
 }
